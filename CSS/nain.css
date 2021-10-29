@@ -1,0 +1,340 @@
+:root{
+    --prymery-text-color: #212121;
+--title-text-color: #212121;
+--accent-color: #2196F3;
+--button-text-color: #FFFFFF;
+--button-background: #2196F3;
+--background-cilir : #FFFFFF;
+--color-command-name: #212121;
+--color-command-post: #757575;
+
+}
+.body{
+    background:#FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+/*голова*/
+.header{
+    background: #FFFFFF;
+    color: var(--title-text-color);
+}
+/**logo**/
+.logo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight:700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+}
+
+
+.web_color{
+    color: #2196F3;
+}
+.web_color-a,
+.web-color-a{
+    color: #000000;
+}
+.web_color-b{
+    color: #FFFFFF;
+}
+ul{
+    list-style: none;
+}
+/*Navigations*/
+.navig_sait a{
+    color: var(--title-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.navig_sait :focus,
+.navig_sait :hover{
+    color: var(--accent-color);   
+}
+
+.contakts :focus,
+.contakts :hover{
+    color: #2196F3;
+}
+.contakts a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+        color: #757575;
+
+
+      
+}
+/*main*/
+
+/*секуия1*/
+.name{
+    /*геометрия*/
+
+    /*цвет*/
+    background: #2F303A;
+    color: var(--button-text-color);
+    text-align: center;
+
+    /*динамика*/
+}
+.name_title{
+    /*геометрия*/
+
+    /*цвет*/
+ font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1,36;
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+    /*динамика*/
+}
+
+.section{
+    background: #FFFFFF;
+}
+/*кнопка*/
+.button{
+color: var(--button-text-color);
+background-color: var(--button-background);
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+/* identical to box height, or 187% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+/*кнопка параметры*/
+
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+/*секция 2*/
+.Benefits-list h3{
+    /*геометрия*/
+
+    /*цвет*/
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.42;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+     color: #212121;
+    /*динамика*/
+}
+.Benefits-list p{
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #757575;
+}
+.Benefits-list title{
+    color: var(--title-text-color)
+  }
+.benefits-clarification{
+    color: #757575;
+}
+/*секция 3*/
+.what-we-do{
+    /**/
+    /*Colors*/
+font-weight:700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+    /**/
+}
+/*наша команда*/
+.xectoin_title{
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.section-comand h3{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--color-command-name);
+}
+.section-comand p {
+font-size: 16px;
+line-height: 1.19;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--color-command-post);
+}
+/*footer*/
+.footer{
+    background-color:  #2F303A; 
+}
+.logo-fot,
+.logo-foot{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+        letter-spacing: 0.03em;
+}
+.adress{
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.section-comand{
+    background: #F5F4FA;
+}
+.section-comand img{
+    width: 270px;
+    height: 260px;
+    left: 215px;
+    top: 1635px;
+}
+
+/*адреса*/
+.web-color-b{
+ color: #FFFFFF;
+  
+}
+.mail,
+.telephone{
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+letter-spacing: 0.03em;
+color:  rgba(255, 255, 255, 0.6);
+}
+.adres-foot{
+    font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+letter-spacing: 0.03em;
+}
+
+
+/*ПАРТФОЛИО*/
+/*Голова*/
+/*секция*/
+/*кнопки*/
+.port-nav :focus,
+.port-nav :hover{
+color: white;
+background: #2196F3;
+
+}
+.port-nav{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+/* identical to box height, or 162% */
+text-align: center;
+letter-spacing: 0.03em;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+border-radius: 4px;
+
+
+
+
+/*font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+
+}
+/*картинки*/
+
+
+.imagi-partfolio h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--color-command-name)
+}
+.imagi-partfolio p {
+        font-size: 16px;
+    line-height: 1.88;
+    /* identical to box height, or 187% */
+    letter-spacing: 0.03em;
+    color: var(--color-command-post)
+}
+
+
+/*подвал*/
+.footer{
+background-color: #2F303A;
+}
+.logo-foot{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+        letter-spacing: 0.03em;}
+   
+.adress-footer{
+ font-size: 14px;
+ font-style: normal;
+line-height: 1.71;
+/* or 171% */
+letter-spacing: 0.03em;
+    }
+    .adress-footera{
+        color: #FFFFFF;
+    }
+        
+
+
+.contakts-footer{
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+letter-spacing: 0.03em;
+color: orange;
+
+}
+
+
