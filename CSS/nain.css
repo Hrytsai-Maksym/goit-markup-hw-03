@@ -7,7 +7,11 @@
 --background-cilir : #FFFFFF;
 --color-command-name: #212121;
 --color-command-post: #757575;
-
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 .body{
     background:#FFFFFF;
@@ -139,7 +143,8 @@ top: 430px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 padding: 10px 32px;
-
+margin-right: auto;
+margin-left: auto;
 }
 
 /*секция 2*/
@@ -273,44 +278,35 @@ line-height: 1.62;
 /* identical to box height, or 162% */
 text-align: center;
 letter-spacing: 0.03em;
-text-align: center;
-letter-spacing: 0.03em;
 color: #212121;
 border-radius: 4px;
 padding: 6px 22px;
 /* identical to box height, or 162% */
-}
-.port-nav :focus,
-.port-nav :hover{
-color: white;
-background: #2196F3;
-}
-.port-nav-oll :focus,
-.port-nav-oll :hover{
-    color: wheat;
-    background-color:#2196F3 ;
 }
 .port-nav-oll,
 .port-nav-web,
 .port-nav-application,
 .port-nav-design,
 .port-nav-marketing{
-    font-weight: 500;
+ font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1,62;
     /* identical to box height, or 162% */
         text-align: center;
     letter-spacing: 0.03em;
-        color: #212121;
+        color: var(--color-command-name);
         background: #F5F4FA;
 border-radius: 4px;
+padding: 6px 22px;
+
 }
-.port-nav-oll :focus,
 .port-nav-oll :hover{
-    background-color:#2196F3 ;   
+    background-color:var(--button-background);   
 }
-
-
+.botton-nav-portfolio{
+   color: #FFFFFF;
+   background-color: var(--button-background);
+}
 
 
 
