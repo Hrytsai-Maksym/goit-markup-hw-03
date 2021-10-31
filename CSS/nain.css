@@ -265,11 +265,7 @@ letter-spacing: 0.03em;
 /*Голова*/
 /*секция*/
 /*кнопки*/
-.port-nav :focus,
-.port-nav :hover{
-color: white;
-background: #2196F3;
-}
+
 .port-nav{
 font-weight: 500;
 font-size: 16px;
@@ -284,6 +280,91 @@ border-radius: 4px;
 padding: 6px 22px;
 /* identical to box height, or 162% */
 }
+.port-nav :focus,
+.port-nav :hover{
+color: white;
+background: #2196F3;
+}
+.port-nav-oll :focus,
+.port-nav-oll :hover{
+    color: wheat;
+    background-color:#2196F3 ;
+}
+.port-nav-oll,
+.port-nav-web,
+.port-nav-application,
+.port-nav-design,
+.port-nav-marketing{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+        text-align: center;
+    letter-spacing: 0.03em;
+        color: #212121;
+        background: #F5F4FA;
+border-radius: 4px;
+}
+.port-nav-oll :focus,
+.port-nav-oll :hover{
+    background-color:#2196F3 ;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*картинки*/
 
 
