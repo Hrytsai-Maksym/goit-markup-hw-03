@@ -320,9 +320,8 @@ padding: 6px 22px;
     color: #FFFFFF; 
 }
 .botton-nav-portfolio{
-   color: #FFFFFF;
-   background-color: #FFFFFF;
-   border-color: red;
+margin-top: 0px;
+margin-bottom: 50px;
 }
 
 
@@ -379,9 +378,15 @@ padding: 6px 22px;
 
 
 /*картинки*/
+.booton-image{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
 
 
 .imagi-partfolio h3{
+    margin-top: 0px;
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -389,6 +394,8 @@ padding: 6px 22px;
     color: var(--color-command-name)
 }
 .imagi-partfolio p {
+    margin-top: 0px;
+    margin-bottom: 20px;
         font-size: 16px;
     line-height: 1.88;
     /* identical to box height, or 187% */
