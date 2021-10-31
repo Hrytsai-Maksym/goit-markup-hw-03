@@ -88,6 +88,8 @@ letter-spacing: 0.02em;
     background: #2F303A;
     color: var(--button-text-color);
     text-align: center;
+    width:1600px ;
+    height:600px ;
        
 
 
@@ -97,6 +99,8 @@ letter-spacing: 0.02em;
     /*геометрия*/
 
     /*цвет*/
+    margin-bottom:30px ;
+    margin-top: 0 ;
  font-family: Roboto;
 font-style: normal;
 font-weight: 900;
@@ -108,8 +112,9 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
 margin-top: 0;
-margin-bottom:30px ;
+
 background-color: blue;
+
 
 
     /*динамика*/
@@ -145,6 +150,7 @@ border-radius: 4px;
 padding: 10px 32px;
 margin-right: auto;
 margin-left: auto;
+padding: 10px 32px;
 }
 
 /*секция 2*/
@@ -271,18 +277,7 @@ letter-spacing: 0.03em;
 /*секция*/
 /*кнопки*/
 
-.port-nav{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-/* identical to box height, or 162% */
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-border-radius: 4px;
-padding: 6px 22px;
-/* identical to box height, or 162% */
-}
+
 .port-nav-oll,
 .port-nav-web,
 .port-nav-application,
@@ -301,11 +296,13 @@ padding: 6px 22px;
 
 }
 .port-nav-oll :hover{
-    background-color:var(--button-background);   
+    background-color:var(--button-background);  
+    color: #FFFFFF; 
 }
 .botton-nav-portfolio{
    color: #FFFFFF;
-   background-color: var(--button-background);
+   background-color: #FFFFFF;
+   border-color: red;
 }
 
 
