@@ -179,10 +179,21 @@ color: #757575;
 .benefits-clarification{
     color: #757575;
 }
+.title{
+    margin-top: 0;
+    margin-bottom: 10px;
+   
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 /*секция 3*/
 .what-we-do{
     /**/
     /*Colors*/
+    margin-top: 0;
+    margin-bottom: 50;
 font-weight:700;
 font-size: 36px;
 line-height: 1.17;
@@ -192,6 +203,15 @@ color: #212121;
     /**/
 }
 /*наша команда*/
+.photo-comand{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.name-command{
+    margin-top: 20;
+    margin-bottom: 10;
+}
+
 .xectoin_title{
 
 font-weight: 700;
