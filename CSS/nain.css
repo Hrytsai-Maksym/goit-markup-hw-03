@@ -181,6 +181,8 @@ padding: 10px 32px;
 /*секция 2*/
 .Benefits-list{
     display: flex;
+    padding-right:215px;
+    padding-left: 215px;
 }
 .Benefits-list h3{
     /*геометрия*/
@@ -255,15 +257,27 @@ color: #212121;
 }
 
 .xectoin_title{
-
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-}
 
+}
+.comand{
+    display: flex;
+    padding-right: 215px;
+    padding-left: 215px;
+    }
+    .comand .comand-info{
+        margin-right: 30px;
+    }
+    .comand-info{
+     border-radius: 0px 0px 4px 4px;
+     background: #FFFFFF;
+     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    }
 .section-comand h3{
 font-weight: 500;
 font-size: 16px;
@@ -364,8 +378,11 @@ padding: 6px 22px;
     color: #FFFFFF; 
 }
 .botton-nav-portfolio{
+    display: flex;
 margin-top: 0px;
 margin-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
 }
 .port-nav-marketing:hover,
 .port-nav-marketing:active,
@@ -384,9 +401,15 @@ margin-bottom: 50px;
 .port-nav-oll:focus{
     color: #FFFFFF;
     background-color: var(--button-background);
-
 }
-
+.botton-nav-portfolio .port-nav-oll,
+.port-nav-web,
+.port-nav-application,
+.port-nav-design,
+.port-nav-marketing{
+    margin-right: 9px;
+  
+}
 
 
 
