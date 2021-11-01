@@ -222,6 +222,15 @@ p{
     margin-bottom: 0;
 }
 /*секция 3*/
+.image-first-page{
+    display: flex;
+    padding-right: 215px;
+    padding-left: 215px;
+    }
+    .image-first-page .img-first{
+        margin-right: 30px;
+        
+    }
 .what-we-do{
     /**/
     /*Colors*/
