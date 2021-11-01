@@ -22,6 +22,11 @@ a{
     text-decoration: none;
 }
 /*голова*/
+.navigation{
+display: flex;
+align-items: center;
+justify-content: start;
+}
 .header{
         background: #FFFFFF;
     color: var(--title-text-color);
@@ -35,6 +40,9 @@ a{
     line-height: 1.19;
     /* identical to box height */
     letter-spacing: 0.03em;
+
+    margin-right: 93px;
+    margin-left: 215px;
 }
 
 
@@ -53,7 +61,12 @@ ul{
 }
 /*Navigations*/
 .navig_sait .head{
+    display: block;
+    padding-top: 32px; ;
+    padding-bottom: 32px;
         margin-right: 50px;
+        background-color: blue;
+
 }
 .navig_sait .head :last-child{
     margin-right: 0px;
@@ -89,6 +102,8 @@ letter-spacing: 0.02em;
     display: flex;
     margin-top: 32px;
     margin-bottom: 32px;
+    margin-left: auto;
+    
 }
 .contakts a{
     font-weight: 500;
