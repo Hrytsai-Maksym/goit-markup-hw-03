@@ -79,6 +79,17 @@ letter-spacing: 0.02em;
 .contakts :hover{
     color: #2196F3;
 }
+.contakts .contakt{
+    margin-right: 50px;
+}
+.contakts .contakt :last-child{
+    margin-bottom: 0px;
+}
+.contakts{
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
 .contakts a{
     font-weight: 500;
     font-size: 14px;
