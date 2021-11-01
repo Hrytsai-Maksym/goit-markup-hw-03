@@ -13,10 +13,18 @@
 *::after {
   box-sizing: border-box;
 }
+/*основа*/
 .body{
     background:#FFFFFF;
     font-family: Roboto, sans-serif;
     font-style: normal;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 1570px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 3px red;
 }
 a{
     text-decoration: none;
@@ -25,7 +33,7 @@ a{
 .navigation{
 display: flex;
 align-items: center;
-justify-content: start;
+
 }
 .header{
         background: #FFFFFF;
@@ -65,7 +73,7 @@ ul{
     padding-top: 32px; ;
     padding-bottom: 32px;
         margin-right: 50px;
-        background-color: blue;
+        
 
 }
 .navig_sait .head :last-child{
@@ -125,7 +133,7 @@ letter-spacing: 0.02em;
     background: #2F303A;
     color: var(--button-text-color);
     text-align: center;
-    width:1600px ;
+    width: 1570px;px ;
     height:600px ;
    
        
@@ -162,6 +170,7 @@ background-color: blue;
     background: #FFFFFF;
     padding-top: 94px;
     padding-bottom: 94px;
+  
 }
 /*кнопка*/
 .button{
@@ -196,8 +205,8 @@ padding: 10px 32px;
 /*секция 2*/
 .Benefits-list{
     display: flex;
-    padding-right:215px;
-    padding-left: 215px;
+        margin-left: auto;
+    margin-right: auto;
 }
 .Benefits-list h3{
     /*геометрия*/
@@ -241,11 +250,12 @@ p{
 /*секция 3*/
 .image-first-page{
     display: flex;
-    padding-right: 215px;
-    padding-left: 215px;
+  margin-left: auto;
+  margin-right: auto;
     }
     .image-first-page .img-first{
         margin-right: 30px;
+        display: block;
         
     }
 .what-we-do{
@@ -346,8 +356,7 @@ color: #FFFFFF;
 /*адреса*/
 .web-color-b{
  color: #FFFFFF;
-  
-}
+  }
 .mail,
 .telephone{
 font-size: 14px;
@@ -363,14 +372,10 @@ line-height: 1.71;
 /* or 171% */
 letter-spacing: 0.03em;
 }
-
-
 /*ПАРТФОЛИО*/
 /*Голова*/
 /*секция*/
 /*кнопки*/
-
-
 .port-nav-oll,
 .port-nav-web,
 .port-nav-application,
@@ -386,7 +391,6 @@ letter-spacing: 0.03em;
         background: #F5F4FA;
 border-radius: 4px;
 padding: 6px 22px;
-
 }
 .port-nav-oll :hover{
     background-color:var(--button-background);  
@@ -429,62 +433,13 @@ margin-right: auto;
 .port-nav-application,
 .port-nav-design,
 .port-nav-marketing :last-child{
-    margin-right: 0px;
+  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*картинки*/
+.container-img{
+ display: flex;
+}
+.Container-img
 .booton-image{
     margin-top: 0px;
     margin-bottom: 20px;
