@@ -408,7 +408,13 @@ margin-right: auto;
 .port-nav-design,
 .port-nav-marketing{
     margin-right: 9px;
-  
+ }
+ .botton-nav-portfolio .port-nav-oll,
+.port-nav-web,
+.port-nav-application,
+.port-nav-design,
+.port-nav-marketing :last-child{
+    margin-right: 0px;
 }
 
 
