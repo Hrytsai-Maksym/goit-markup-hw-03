@@ -314,7 +314,7 @@ letter-spacing: 0.03em;
 .port-nav-marketing{
  font-weight: 500;
     font-size: 16px;
-    line-height: 1,62;
+    line-height: 1.62;
     /* identical to box height, or 162% */
         text-align: center;
     letter-spacing: 0.03em;
@@ -332,9 +332,21 @@ padding: 6px 22px;
 margin-top: 0px;
 margin-bottom: 50px;
 }
-.port-nav-oll :hover,
-.port-nav-oll :active,
-.port-nav-oll :focus{
+.port-nav-marketing:hover,
+.port-nav-marketing:active,
+.port-nav-marketing:focus,
+.port-nav-application:hover,
+.port-nav-application:active,
+.port-nav-application:focus,
+.port-nav-design:hover,
+.port-nav-design:active,
+.port-nav-design:focus,
+.port-nav-web:hover,
+.port-nav-web:active,
+.port-nav-web:focus,
+.port-nav-oll:hover,
+.port-nav-oll:active,
+.port-nav-oll:focus{
     color: #FFFFFF;
     background-color: var(--button-background);
 
@@ -458,6 +470,9 @@ color: orange;
 }
 
 /*ДИВЫ*/
-.container-button{}
+.container-button{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 
