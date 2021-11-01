@@ -179,6 +179,9 @@ padding: 10px 32px;
 }
 
 /*секция 2*/
+.Benefits-list{
+    display: flex;
+}
 .Benefits-list h3{
     /*геометрия*/
 
@@ -191,6 +194,7 @@ padding: 10px 32px;
      color: #212121;
     /*динамика*/
 }
+
 .Benefits-list p{
 font-size: 14px;
 line-height: 1.71;
@@ -203,10 +207,14 @@ color: #757575;
   }
 .benefits-clarification{
     color: #757575;
+    margin-right: 30px;
+    width: 270px;
+    height: 75px;
 }
 .title{
     margin-top: 0;
     margin-bottom: 10px;
+  
    
 }
 p{
