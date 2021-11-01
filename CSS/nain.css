@@ -23,7 +23,7 @@ a{
 }
 /*голова*/
 .header{
-    background: #FFFFFF;
+        background: #FFFFFF;
     color: var(--title-text-color);
 }
 /**logo**/
@@ -52,6 +52,12 @@ ul{
     list-style: none;
 }
 /*Navigations*/
+.navig_sait .head{
+        margin-right: 50px;
+}
+.navig_sait .head :last-child{
+    margin-right: 0px;
+}
 .navig_sait a{
     color: var(--title-text-color);
 font-weight: 500;
@@ -64,6 +70,7 @@ letter-spacing: 0.02em;
     color: var(--accent-color);   
 }
 .navig_sait{
+    display: flex;
     margin-top: 32px;
     margin-bottom: 32px;
 }
