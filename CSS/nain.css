@@ -197,8 +197,8 @@ ul {
   background: #2f303a;
   color: var(--button-text-color);
   text-align: center;
-  width: 1200px;
-  height: 600px;
+  padding-bottom: 94px;
+
   /*динамика*/
 }
 .name_title {
