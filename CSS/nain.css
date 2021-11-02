@@ -19,15 +19,17 @@
     font-family: Roboto, sans-serif;
     font-style: normal;
 
-    margin-left: auto;
-    margin-right: auto;
-    width: 1570px;
-    padding-left: 15px;
-    padding-right: 15px;
-    outline: 3px red;
+
 }
 /*  К  О  Н  Т  Е  Й  Н  Е  Р  Ы  */
 .container-header{
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-name{
     width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
@@ -69,6 +71,20 @@
     margin-left: auto;
     margin-right: auto; 
     flex-wrap: wrap;
+    }
+    /*.container-name{
+        width: 1230px;
+        padding-left: 15px;
+        padding-right: 15px;  
+        margin-left: auto;
+        margin-right: auto; 
+    }*/
+/**.container-footer{
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px; 
+    margin-left: auto;
+    margin-right: auto;    
 }
 /************************************/
 a{
@@ -94,8 +110,6 @@ align-items: center;
     /* identical to box height */
     letter-spacing: 0.03em;
 
-    margin-right: 93px;
-    margin-left: 215px;
 }
 
 
@@ -452,10 +466,6 @@ letter-spacing: 0.03em;
 border-radius: 4px;
 padding: 6px 22px;
 }
-.port-nav-oll :hover{
-    background-color:var(--button-background);  
-    color: #FFFFFF; 
-}
 .botton-nav-portfolio{
     display: flex;
 margin-top: 0px;
@@ -481,18 +491,51 @@ margin-right: auto;
     color: #FFFFFF;
     background-color: var(--button-background);
 }
-.botton-nav-portfolio .port-nav-oll,
+.port-nav-oll,
 .port-nav-web,
 .port-nav-application,
-.port-nav-design,
-.port-nav-marketing{
-    margin-right: 9px;
+.port-nav-design{
+    margin-right: 8px;
  }
- .botton-nav-portfolio .port-nav-oll,
-.port-nav-web,
-.port-nav-application,
-.port-nav-design,
-.port-nav-marketing :last-child{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-footer-port{
+   width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+.port-nav-marketing{
     margin-right: 0px;
 }
 /*картинки*/
