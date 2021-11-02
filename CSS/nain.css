@@ -31,21 +31,44 @@
     width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container-benefits{
     width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container-what-we-do{
     width: 1230px;
     padding-left: 15px;
-    padding-right: 15px;  
+    padding-right: 15px; 
+    margin-left: auto;
+    margin-right: auto; 
 }
 .container-comand{
     width: 1230px;
     padding-left: 15px;
-    padding-right: 15px;    
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.container-button{
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px; 
+    margin-left: auto;
+    margin-right: auto;   
+}
+.container-img{
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;  
+    margin-left: auto;
+    margin-right: auto; 
+    flex-wrap: wrap;
 }
 /************************************/
 a{
@@ -126,7 +149,7 @@ letter-spacing: 0.02em;
     margin-right: 50px;
 }
 .contakts .contakt :last-child{
-    margin-bottom: 0px;
+    margin-right: 0px;
 }
 .contakts{
     display: flex;
@@ -470,7 +493,7 @@ margin-right: auto;
 .port-nav-application,
 .port-nav-design,
 .port-nav-marketing :last-child{
-  
+    margin-right: 0px;
 }
 /*картинки*/
 .container-img{
@@ -481,7 +504,57 @@ margin-right: auto;
     margin-top: 0px;
     margin-bottom: 20px;
 }
+.container-img .other{
+    background-color: yellow;
+    width: 370px;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.other{
+   width: 370px;
+}
 
 .imagi-partfolio h3{
     margin-top: 0px;
@@ -541,9 +614,6 @@ color: orange;
 }
 
 /*ДИВЫ*/
-.container-button{
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
+
 
 
