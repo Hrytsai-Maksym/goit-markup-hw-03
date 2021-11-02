@@ -18,7 +18,7 @@
     background:#FFFFFF;
     font-family: Roboto, sans-serif;
     font-style: normal;
-
+width: 1230px;
 
 }
 /*  К  О  Н  Т  Е  Й  Н  Е  Р  Ы  */
@@ -72,14 +72,14 @@
     margin-right: auto; 
     flex-wrap: wrap;
     }
-    /*.container-name{
+    .container-name{
         width: 1230px;
         padding-left: 15px;
         padding-right: 15px;  
         margin-left: auto;
         margin-right: auto; 
-    }*/
-/**.container-footer{
+    }
+.container-footer{
     width: 1230px;
     padding-left: 15px;
     padding-right: 15px; 
@@ -497,36 +497,6 @@ margin-right: auto;
 .port-nav-design{
     margin-right: 8px;
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container-footer-port{
    width: 1230px;
     padding-left: 15px;
@@ -534,7 +504,7 @@ margin-right: auto;
     margin-left: auto;
     margin-right: auto;
 }
-}
+
 .port-nav-marketing{
     margin-right: 0px;
 }
