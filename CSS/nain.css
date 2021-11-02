@@ -521,7 +521,9 @@ margin-right: auto;
     background-color: yellow;
     width: 370px;
 }
-
+.imagi-partfolio{
+    flex-wrap: wrap;
+}
 
 
 
@@ -567,6 +569,7 @@ margin-right: auto;
 
 .other{
    width: 370px;
+   margin-right: 30px;
 }
 
 .imagi-partfolio h3{
