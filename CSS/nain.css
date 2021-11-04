@@ -506,6 +506,7 @@ padding-left: 15px;
   margin-bottom: 34px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0px;
  }
 .port-nav-marketing:hover,
 .port-nav-marketing:active,
@@ -531,6 +532,8 @@ padding-left: 15px;
 .port-nav-design {
   margin-right: 8px;
 }
+
+
 .port-nav-marketing {
   margin-right: 0px;
 }
