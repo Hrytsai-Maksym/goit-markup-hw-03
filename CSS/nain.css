@@ -533,6 +533,7 @@ padding-left: 15px;
   margin-right: 8px;
 }
 
+}
 
 .port-nav-marketing {
   margin-right: 0px;
@@ -598,6 +599,7 @@ margin-bottom: 20px;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
   color: var(--color-command-post);
+ 
 }
 .botton-image {
       padding-bottom: 98px;
