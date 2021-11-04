@@ -13,6 +13,10 @@
 *::after {
   box-sizing: border-box;
 }
+html, body{
+  margin: 0px;
+  padding: 0px;
+} 
 /*основа*/
 .body {
   background: #ffffff;
@@ -58,6 +62,9 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0px;
+
+ 
  
 }
 .container-button {
@@ -229,6 +236,8 @@ padding-top: 200px;
 .section {
   background: #ffffff;
    padding-bottom: 94px;
+   margin: 0px;
+  
 }
 /*кнопка*/
 .button {
@@ -311,8 +320,7 @@ p {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 30px;
-  padding-right: 30px;
+padding: 0px;
 }
 /*.image-first-page :last-child{
   padding-right:  15px;
@@ -338,10 +346,10 @@ padding-left: 15px;
   margin-bottom: 50px;
   /**/
 }
-/*наша команда*/
+/*наша команда*************************************/
 .photo-comand {
-  margin-top: 0px;
-  margin-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 30px;
 }
 .name-command {
  padding-top: 0px;
@@ -365,9 +373,15 @@ padding-left: 15px;
 }
 .comand {
   display: flex;
+  padding: 0px;
+
   }
 .comand .comand-info {
   margin-right: 30px;
+  
+}
+.comand :last-child{
+  margin-right: 0px;
 }
 
 
@@ -394,7 +408,7 @@ padding-left: 15px;
   letter-spacing: 0.03em;
   color: var(--color-command-post);
 }
-/*footer*/
+/*footer*******************************************/
 .other{
   background: #FFFFFF;
   border: 1px solid #EEEEEE;
@@ -410,6 +424,7 @@ padding-left: 15px;
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
+  padding-bottom: 30px;
 }
 .adress {
   font-size: 14px;
@@ -421,6 +436,8 @@ padding-left: 15px;
 .section-comand {
   background: #f5f4fa;
   padding-bottom: 94px;
+ 
+ 
 }
 .section-comand img {
   width: 270px;
@@ -450,13 +467,17 @@ padding-left: 15px;
 .telephone :focus {
   color: var(--accent-color)
 }
+.footer-ul{
+  padding: 0px;
 
+}
 .adres-foot {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
+  padding-bottom: 60px;
 }
 /**************************************/
 /**************************************/
@@ -579,6 +600,10 @@ margin-bottom: 20px;
 /*подвал*/
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 215px;
+
 }
 
 .logo-foot {
