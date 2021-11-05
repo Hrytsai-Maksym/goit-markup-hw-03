@@ -424,7 +424,7 @@ padding-left: 15px;
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 .adress {
   font-size: 14px;
@@ -458,18 +458,20 @@ padding-left: 15px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.activ :hover,
+ .activ :hover,
 .activ :focus {
-  color: var(--accent-color);
+  color: var(--accent-color); 
 }
 .mail :focus,
 .telephone :hover,
 .telephone :focus {
   color: var(--accent-color)
-}
+} 
 .footer-ul{
   padding: 0px;
-
+}
+.footer-ul :last-child{
+  margin: 0px;
 }
 .adres-foot {
   font-style: normal;
@@ -502,6 +504,7 @@ padding-left: 15px;
 }
 .botton-nav-portfolio {
   display: flex;
+  justify-content: center;
   margin-top: 0px;
   margin-bottom: 34px;
   margin-left: auto;
@@ -532,9 +535,6 @@ padding-left: 15px;
 .port-nav-design {
   margin-right: 8px;
 }
-
-}
-
 .port-nav-marketing {
   margin-right: 0px;
 }
@@ -611,7 +611,7 @@ margin-bottom: 20px;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
+  
 
 }
 
@@ -634,7 +634,12 @@ margin-bottom: 20px;
 }
 .adress-footera {
   color: #ffffff;
-}
+  padding: 0px !important;
+  
+  }
+  .adress-footer :last-child{
+    margin: 0px;
+  }
 
 .contakts-footer {
   font-size: 14px;
