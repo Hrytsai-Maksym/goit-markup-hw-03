@@ -16,6 +16,7 @@
 html, body{
   margin: 0px;
   padding: 0px;
+
 } 
 /*основа*/
 .body {
@@ -120,6 +121,7 @@ a {
 .header {
   background: #ffffff;
   color: var(--title-text-color);
+  padding-bottom: 94px;
 }
 /**logo**/
 .logo {
@@ -198,6 +200,9 @@ padding: 0px;
 /*main*/
 
 /*секуия1*/
+.section-hero{
+  padding-bottom: 94px;
+}
 .name {
   /*геометрия*/
 padding-bottom: 200px;
@@ -206,7 +211,7 @@ padding-top: 200px;
   background: #2f303a;
   color: var(--button-text-color);
   text-align: center;
-  margin-bottom: 94px;
+
 
   /*динамика*/
 }
@@ -237,8 +242,7 @@ padding-top: 200px;
   background: #ffffff;
    padding-bottom: 94px;
    margin: 0px;
-  
-}
+  }
 /*кнопка*/
 .button {
   display: inline-block;
@@ -277,6 +281,8 @@ padding-top: 200px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  /* margin: 0px; */
+  padding: 0px;
 }
 .Benefits-list h3 {
   /*геометрия*/
@@ -320,18 +326,20 @@ p {
   display: flex;
   margin-left: auto;
   margin-right: auto;
+/* padding: 0px; */
+margin: 0px;
 padding: 0px;
 }
-/*.image-first-page :last-child{
-  padding-right:  15px;
-}
-.image-first-page :first-child{
-padding-left: 15px;
-}*/
+
+
 .image-first-page .img-first {
   margin-right: 30px;
   display: block;
 }
+.img-first :last-child{
+  margin: 0px;
+}
+
 .what-we-do {
   /**/
   /*Colors*/
@@ -360,6 +368,9 @@ padding-left: 15px;
   padding-bottom: 30px;
 }
 
+.border{
+  border-bottom: 1px solid  #ECECEC; }
+ 
 
 
 .xectoin_title {
@@ -369,8 +380,9 @@ padding-left: 15px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-bottom: 50px;
-}
+ margin-top: 0px;
+ margin-bottom: 0px;
+ padding-bottom: 50px;}
 .comand {
   display: flex;
   padding: 0px;
@@ -414,6 +426,9 @@ padding-left: 15px;
   border: 1px solid #EEEEEE;
   box-sizing: border-box;
   
+}
+.adres-list{
+  margin-bottom: 9px;
 }
 .logo-fot,
 .logo-foot {
@@ -477,15 +492,17 @@ padding-left: 15px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
-  letter-spacing: 0.03em;
-  padding-bottom: 60px;
+   letter-spacing: 0.03em;
+  /* padding-bottom: 60px; */
 }
 /**************************************/
 /**************************************/
 /*ПАРТФОЛИО*/
 /*Голова*/
-/*кнопки*/
+/*кнопки************************************/
+.down{
+  padding-bottom: 34px;
+}
 .port-nav-oll,
 .port-nav-web,
 .port-nav-application,
@@ -569,10 +586,7 @@ margin-bottom: 20px;
   margin-right: 0px;  
   
 }
-.imagi-partfolio :nth-last-child(-n+3) {
-  padding-bottom: 30px;
- ;
-}
+
 .other{
     width: 370px;
      margin-right: 30px;
@@ -601,8 +615,12 @@ margin-bottom: 20px;
   color: var(--color-command-post);
  
 }
+.image-div-red{
+padding: 20px 24px;
+}
+
 .botton-image {
-      padding-bottom: 98px;
+      padding-bottom: 94px;
      
 }
 
@@ -648,5 +666,5 @@ margin-bottom: 20px;
   letter-spacing: 0.03em;
   color: orange;
 }
-
+.
 
