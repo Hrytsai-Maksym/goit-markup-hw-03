@@ -63,8 +63,8 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-
 }
+
 .container-name {
   width: 1200px;
   padding-left: 15px;
@@ -153,8 +153,12 @@ a {
 .header {
   background: #ffffff;
   color: var(--title-text-color);
-  padding-bottom: 94px;
-}
+ }
+ .header-p{
+  background: #ffffff;
+  color: var(--title-text-color);
+   border-bottom: 1px solid  #ECECEC; } 
+ 
 /**logo**/
 .logo {
   font-family: Raleway;
@@ -231,10 +235,8 @@ padding: 0px;
 }
 /*main*/
 
-/*секуия1*/
-.section-hero{
-  padding-bottom: 94px;
-}
+/******************секуия1*********************/
+
 .name {
   /*геометрия*/
 padding-bottom: 200px;
@@ -257,7 +259,7 @@ padding-top: 200px;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   /* or 136% */
 
   letter-spacing: 0.06em;
@@ -272,6 +274,7 @@ padding-top: 200px;
 
 .section {
   background: #ffffff;
+  padding-top: 94px;
    padding-bottom: 94px;
    margin: 0px;
   }
@@ -305,7 +308,7 @@ padding-top: 200px;
   padding: 10px 32px;
 }
 
-/*секция 2*/
+/**********************секция 2******************/
 .hide {
   display: none;
 }
@@ -353,7 +356,11 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-/*секция 3*/
+/****************секция 3**************************/
+.section-container-what-we-do{
+  margin: 0px;
+  padding-bottom: 94px;
+}
 .image-first-page {
   display: flex;
   margin-left: auto;
@@ -386,11 +393,11 @@ padding: 0px;
   margin-bottom: 50px;
   /**/
 }
-/*наша команда*************************************/
-.photo-comand {
+/********************наша команда*****************/
+/* .photo-comand {
   padding-top: 0px;
   padding-bottom: 30px;
-}
+} */
 .name-command {
  padding-top: 0px;
   padding-bottom: 10px;
@@ -400,8 +407,7 @@ padding: 0px;
   padding-bottom: 30px;
 }
 
-.border{
-  border-bottom: 1px solid  #ECECEC; }
+
  
 
 
@@ -413,8 +419,8 @@ padding: 0px;
   letter-spacing: 0.03em;
   color: #212121;
  margin-top: 0px;
- margin-bottom: 0px;
- padding-bottom: 50px;}
+ margin-bottom: 50px;
+ }
 .comand {
   display: flex;
   padding: 0px;
@@ -450,7 +456,11 @@ padding: 0px;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--color-command-post);
+  color: var(--color-command-post);}
+  .spetifikation-komand{
+padding-bottom: 30px;
+padding-top: 30px;
+  
 }
 /*footer*******************************************/
 .other{
@@ -469,9 +479,8 @@ padding: 0px;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
-  letter-spacing: 0.03em;
-  /* padding-bottom: 30px; */
+    letter-spacing: 0.03em;
+   
 }
 .adress {
   font-size: 14px;
@@ -483,15 +492,18 @@ padding: 0px;
 .section-comand {
   background: #f5f4fa;
   padding-bottom: 94px;
- 
+ padding-top: 94px;
  
 }
-.section-comand img {
+/* .footer-ul{
+  padding-top: 20px; 
+}*/
+/* .section-comand img {
   width: 270px;
   height: 260px;
   left: 215px;
   top: 1635px;
-}
+} */
 
 /*адреса*/
 .web-color-b {
@@ -516,6 +528,8 @@ padding: 0px;
 } 
 .footer-ul{
   padding: 0px;
+  padding-bottom: 0px;
+margin-bottom: 0px;
 }
 .footer-ul :last-child{
   margin: 0px;
@@ -532,9 +546,7 @@ padding: 0px;
 /*ПАРТФОЛИО*/
 /*Голова*/
 /*кнопки************************************/
-.down{
-  padding-bottom: 34px;
-}
+
 .port-nav-oll,
 .port-nav-web,
 .port-nav-application,
@@ -588,15 +600,11 @@ padding: 0px;
   margin-right: 0px;
 }
 /*картинки*****************************/
-.Container-img .booton-image {
+.Container-img  {
   margin-top: 0px;
   margin-bottom: 20px;
 }
-.booton-image{
- /* padding-bottom: 20px;
-}*/
-margin-bottom: 20px;
-}
+
 .name-img{
   padding-top: 0px;
   padding-bottom: 0px;
@@ -605,8 +613,7 @@ margin-bottom: 20px;
 .class-img{
   padding-top: 0px;
   padding-bottom: 0px;
-  margin-bottom: 420px;
-}
+  }
 
 .imagi-partfolio {
   display: flex;
@@ -639,8 +646,7 @@ margin-bottom: 20px;
 }
 .imagi-partfolio p {
   margin-top: 0px;
-  margin-bottom: 20px;
-  font-size: 16px;
+    font-size: 16px;
   line-height: 1.88;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
@@ -653,6 +659,7 @@ padding: 20px 24px;
 
 .botton-image {
       padding-bottom: 94px;
+      padding-top: 94px;
      
 }
 
@@ -698,3 +705,6 @@ padding: 20px 24px;
   letter-spacing: 0.03em;
   color: orange;
 }
+/* .down{
+  padding-bottom: 20px;
+} */
