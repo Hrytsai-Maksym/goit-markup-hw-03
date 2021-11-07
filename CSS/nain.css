@@ -51,7 +51,9 @@ img {
 }
 /*********************************************/
 /*основа*/
-
+/* .centr{
+  justify-content: center;
+} */
 .body {
   background: #ffffff;
   font-family: Roboto, sans-serif;
@@ -133,6 +135,13 @@ img {
   margin-left: auto;
   margin-right: auto;
  
+}
+.container-comand{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container-footer-port {
     width: 1230px;
