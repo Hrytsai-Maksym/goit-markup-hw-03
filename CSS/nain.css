@@ -51,6 +51,7 @@ img {
 }
 /*********************************************/
 /*основа*/
+
 .body {
   background: #ffffff;
   font-family: Roboto, sans-serif;
@@ -374,6 +375,9 @@ padding: 0px;
 .image-first-page .img-first {
   margin-right: 30px;
   display: block;
+}
+.image-first-page :last-child{
+  margin-right: 0px;
 }
 .img-first :last-child{
   margin: 0px;
